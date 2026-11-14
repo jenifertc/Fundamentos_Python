@@ -49,4 +49,6 @@ print(precio_final)
 
 #OPERADORES WALRUS :=
 y = 10 #asigna el valor de la variable 10 a y
+print(y)
+
 print(z := 8)
