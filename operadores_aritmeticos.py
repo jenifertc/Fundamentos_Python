@@ -47,5 +47,6 @@ print(math.pi)
 print(math.e)
 print(math.sqrt(16))
 
-import random
+import random #numeros aleatorios
 print(random.random())
+
