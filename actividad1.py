@@ -1,14 +1,12 @@
-nombre = input("Escribe tu nombre: ")
-print(type(nombre), nombre)
-apellido = input("Escribe tu apellido: ")
-print(type(apellido), apellido)
-num_ficha = input("Escribe tu numero de ficha: ")
-print(type(num_ficha), num_ficha)
-nom_programa = input("Escribe tu nombre del programa: ")
-print(type(nom_programa), nom_programa)
-edad = input("Escribe tu edad: ")
-print(type(edad), edad)
-prom_actual = input("Escribe tu promedio actual: ")
-print(type(prom_actual), prom_actual)
 
-print(f"Hola mi nombre es: {nombre} {apellido} \n mi numero de ficha es: {num_ficha} \n mi programa es: {nom_programa} \n mi edad es: {edad} \n mi promedio actual es: {prom_actual}")
+nombre = "Jenifer"
+print(type(nombre)) 
+apellido = "Tibaduiza Cristancho"
+numero_ficha = 3233140
+nombre_programa = "Análisis y Desarrollo de Software"
+edad = 31
+promedio_academico = 4.6
+activo = True
+
+
+print(f"Hola mi nombre es: {nombre} {apellido} (Tipo: {type(nombre)}) \n mi numero de ficha es: {numero_ficha} (Tipo: {type(numero_ficha)}) \n mi programa es: {nombre_programa} (Tipo: {type(nombre_programa)}) \n mi edad es: {edad} (Tipo: {type(edad)}) \n mi promedio actual es: {promedio_academico} (Tipo: {type(promedio_academico)}) \n mi estado es: {activo} (Tipo: {type(activo)})")
