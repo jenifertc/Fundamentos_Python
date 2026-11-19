@@ -64,7 +64,7 @@ nueva_lista_aprendices.remove("Oscar")
 print(nueva_lista_aprendices)
 
 #Eliminar con elemento con pop este elimina segun su indice
-nueva_lista_aprendices.pop(2)
+nueva_lista_aprendices.pop(0)  # pyright: ignore[reportUnusedCallResult]
 print(nueva_lista_aprendices)
 
 """#Limpia todos los elementos de la lista
